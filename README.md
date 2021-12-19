@@ -64,7 +64,7 @@ Add ignorable files in the .gitignore. You may use this [.gitignore content](htt
     
 # Pythonanywhere
 
-Now login to your pythonanywhere account. Go to the **Account** and from **Api Token** tab create a new api token if you already don't have any. Copy the token and get back to **Dashboard** and open a new **$ Bash**  console. And install the following pakage.
+Now login to your pythonanywhere account. Go to the **Account** and from **Api Token** tab create a new api token if you already don't have any. Now get back to **Dashboard** and open a new **$ Bash**  console. And install the following pakage.
 
     pip3.8 install --user pythonanywhere
     
