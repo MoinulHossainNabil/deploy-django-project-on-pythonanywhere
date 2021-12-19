@@ -47,7 +47,7 @@ Now if you have a virtual environment activate it first. Then freeze all of the 
     
 # Git
 
-That is all from the project changes. Now, first of all, create an empty public repository in your github account to avoid hassles. Then push the codebase to the repository you just created by following the below procedures sequentially (skip the step if you have already the code in github repo set as public)
+That is all from the project changes. Now, first of all, create an empty public repository in your github account to avoid hassles. Then push the codebase to the repository you just created by following the below procedures sequentially (skip the step if you have already the code in github repo set as public by following minimal django standard)
 
     git init
     touch .gitignore
