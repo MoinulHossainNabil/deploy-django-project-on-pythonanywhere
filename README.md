@@ -41,7 +41,7 @@ Now add the **STATIC_ROOT** if you have not set it yet
     
 **NB: STATIC_ROOT must be a directory that does not already exist in the STATICFILES_DIRS if you have**
 
-Then freeze all of the packages used in the application by running the following command:
+Then freeze all of the packages used in the application by running the following command. If you have virtual environment activate it first.
 
     pip freeze > requirements.txt
     
