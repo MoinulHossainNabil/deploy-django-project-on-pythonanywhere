@@ -24,7 +24,7 @@ Take following example as the normal flow of a django application throughout the
         static/
         manage.py
         
-Assumed it as a boilerplate to follow along with the article. The sturcure might be slightly or completely different. There is nothing wrong with that. But the most important part to focus on is the **settings.py** file inside the **proj/** directory.
+Assumed it as a boilerplate to follow along with the article. The sturcture might be slightly or completely different. There is nothing wrong with that. But the most important part to focus on is the **settings.py** file inside the **proj/** directory.
 
 Modify some configuration that is okay when we are in development but the production structure of a django project is too way different that we normally follow while playing with some simple applications in development. This is not about production standard architecture it is just for when you want you simple application go live without any kind of extra hassle and spending a lot of time to configure things manually for ages.
 
@@ -52,7 +52,7 @@ That is all from the project changes. Now, first of all, create an empty public 
     git init
     touch .gitignore
     
-Add ignorable files in the .gitignore. You may use this [.gitignore content](https://djangowaves.com/tips-tricks/gitignore-for-a-django-project/) for common files and directories to skip.
+Add ignorable files in the .gitignore. You may use this [.gitignore content](https://djangowaves.com/tips-tricks/gitignore-for-a-django-project/) for common files and directories.
 
     git add .
     git config user.name "yourgithubusername"
